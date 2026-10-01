@@ -1,0 +1,249 @@
+{
+  "app": {
+    "name": "VelocityCRM",
+    "tagline": "Jedno narzędzie, każda branża"
+  },
+  "nav": {
+    "dashboard": "Pulpit",
+    "contacts": "{plural}",
+    "organizations": "{plural}",
+    "pipeline": "{plural}",
+    "tasks": "Zadania",
+    "activities": "Aktywności",
+    "inbox": "Skrzynka",
+    "reports": "Raporty",
+    "documents": "Dokumenty",
+    "settings": "Ustawienia"
+  },
+  "common": {
+    "search": "Szukaj",
+    "addNew": "Dodaj",
+    "edit": "Edytuj",
+    "delete": "Usuń",
+    "save": "Zapisz",
+    "cancel": "Anuluj",
+    "close": "Zamknij",
+    "loading": "Wczytywanie…",
+    "noResults": "Brak wyników dla podanych kryteriów.",
+    "actions": "Akcje",
+    "confirmDeleteTitle": "Potwierdź usunięcie",
+    "confirmDeleteMessage": "Tej operacji nie można cofnąć. Czy na pewno chcesz usunąć ten rekord?",
+    "confirm": "Potwierdź",
+    "all": "Wszystkie",
+    "status": "Status",
+    "filterByStatus": "Filtruj według statusu",
+    "required": "Pole wymagane",
+    "back": "Wstecz",
+    "viewAll": "Zobacz wszystko",
+    "value": "Wartość",
+    "today": "Dzisiaj",
+    "saveChanges": "Zapisz zmiany",
+    "optional": "opcjonalne"
+  },
+  "header": {
+    "searchPlaceholder": "Szukaj kontaktów, firm, spraw…",
+    "notifications": "Powiadomienia",
+    "account": "Konto użytkownika",
+    "toggleTheme": "Przełącz motyw jasny/ciemny",
+    "openMenu": "Otwórz menu nawigacyjne",
+    "closeMenu": "Zamknij menu nawigacyjne",
+    "skipToContent": "Przejdź do treści głównej"
+  },
+  "theme": {
+    "light": "Jasny",
+    "dark": "Ciemny",
+    "system": "Systemowy"
+  },
+  "dashboard": {
+    "title": "Pulpit",
+    "subtitle": "Przegląd kluczowych wskaźników Twojej organizacji",
+    "statActiveContacts": "{label}",
+    "statOpenPipeline": "Otwarte {label}",
+    "statWonValue": "Wartość wygranych",
+    "statTasksDueSoon": "Zadania na czas",
+    "pipelineOverview": "Przegląd lejka",
+    "recentActivity": "Najnowsze aktywności",
+    "noActivity": "Brak zarejestrowanych aktywności.",
+    "upcomingTasks": "Nadchodzące zadania",
+    "noTasks": "Brak zaplanowanych zadań."
+  },
+  "contacts": {
+    "title": "{plural}",
+    "subtitle": "Zarządzaj bazą {pluralLower} i śledź relacje",
+    "addButton": "Dodaj {singular}",
+    "editTitle": "Edytuj {singular}",
+    "addTitle": "Nowy {singular}",
+    "searchPlaceholder": "Szukaj po nazwie, e-mailu lub organizacji…",
+    "fields": {
+      "name": "Imię i nazwisko",
+      "email": "Adres e-mail",
+      "phone": "Telefon",
+      "organization": "Organizacja",
+      "role": "Stanowisko",
+      "status": "Status",
+      "source": "Źródło",
+      "value": "Szacowana wartość"
+    },
+    "empty": "Nie znaleziono żadnych rekordów. Dodaj pierwszy, aby rozpocząć.",
+    "lastContact": "Ostatni kontakt",
+    "deleteConfirm": "Czy na pewno usunąć {name}?"
+  },
+  "organizations": {
+    "title": "{plural}",
+    "subtitle": "Lista organizacji powiązanych z Twoimi kontaktami",
+    "addButton": "Dodaj {singular}",
+    "searchPlaceholder": "Szukaj organizacji…",
+    "fields": {
+      "name": "Nazwa",
+      "category": "Kategoria",
+      "size": "Wielkość",
+      "revenue": "Przychód",
+      "website": "Strona WWW"
+    },
+    "contactsCount": "{count} kontakt | {count} kontakty | {count} kontaktów",
+    "empty": "Brak zapisanych organizacji."
+  },
+  "pipeline": {
+    "title": "{plural}",
+    "subtitle": "Śledź postęp {pluralLower} na kolejnych etapach",
+    "addButton": "Dodaj {singular}",
+    "fields": {
+      "title": "Nazwa",
+      "value": "Wartość",
+      "stage": "Etap",
+      "probability": "Prawdopodobieństwo",
+      "contact": "Powiązany kontakt",
+      "expectedCloseDate": "Planowana data zamknięcia",
+      "notes": "Notatki"
+    },
+    "moveLeft": "Przenieś do poprzedniego etapu",
+    "moveRight": "Przenieś do kolejnego etapu",
+    "empty": "Brak rekordów na tym etapie.",
+    "totalValue": "Łączna wartość etapu"
+  },
+  "tasks": {
+    "title": "Zadania",
+    "subtitle": "Planuj i monitoruj swoje zadania oraz zespołu",
+    "addButton": "Dodaj zadanie",
+    "fields": {
+      "title": "Tytuł",
+      "description": "Opis",
+      "priority": "Priorytet",
+      "status": "Status",
+      "dueDate": "Termin",
+      "assignedTo": "Przypisane do"
+    },
+    "priority": {
+      "low": "Niski",
+      "medium": "Średni",
+      "high": "Wysoki"
+    },
+    "status": {
+      "pending": "Oczekujące",
+      "in-progress": "W toku",
+      "completed": "Zakończone",
+      "cancelled": "Anulowane"
+    },
+    "empty": "Brak zadań spełniających kryteria filtrowania.",
+    "markComplete": "Oznacz jako zakończone",
+    "markPending": "Przywróć do oczekujących"
+  },
+  "activities": {
+    "title": "Aktywności",
+    "subtitle": "Historia interakcji z Twoimi kontaktami",
+    "type": {
+      "call": "Rozmowa telefoniczna",
+      "email": "Wiadomość e-mail",
+      "meeting": "Spotkanie",
+      "task": "Zadanie"
+    },
+    "empty": "Brak zarejestrowanych aktywności."
+  },
+  "inbox": {
+    "title": "Skrzynka odbiorcza",
+    "subtitle": "Wiadomości powiązane z Twoimi kontaktami",
+    "markRead": "Oznacz jako przeczytane",
+    "markUnread": "Oznacz jako nieprzeczytane",
+    "star": "Oznacz gwiazdką",
+    "unstar": "Usuń oznaczenie gwiazdką",
+    "empty": "Brak wiadomości w skrzynce."
+  },
+  "reports": {
+    "title": "Raporty",
+    "subtitle": "Analiza wyników i trendów w wybranej branży",
+    "conversionRate": "Współczynnik konwersji",
+    "averageDealValue": "Średnia wartość {singular}",
+    "winRate": "Wskaźnik wygranych",
+    "stageBreakdown": "Rozkład etapów"
+  },
+  "documents": {
+    "title": "Dokumenty",
+    "subtitle": "Pliki i załączniki współdzielone w zespole",
+    "uploadButton": "Dodaj dokument",
+    "fields": {
+      "name": "Nazwa pliku",
+      "category": "Kategoria",
+      "size": "Rozmiar",
+      "updatedAt": "Zaktualizowano",
+      "owner": "Właściciel"
+    },
+    "empty": "Brak dokumentów do wyświetlenia."
+  },
+  "settings": {
+    "title": "Ustawienia",
+    "subtitle": "Dostosuj aplikację do potrzeb swojej branży i zespołu",
+    "industrySection": "Profil branżowy",
+    "industryDescription": "Wybierz profil, aby dopasować terminologię, etapy procesu i etykiety do swojej branży.",
+    "appearanceSection": "Wygląd",
+    "appearanceDescription": "Dostosuj motyw kolorystyczny aplikacji.",
+    "languageSection": "Język interfejsu",
+    "languageDescription": "Zmień język wyświetlanych treści.",
+    "notificationsSection": "Powiadomienia",
+    "notificationsDescription": "Zarządzaj kanałami, którymi otrzymujesz powiadomienia.",
+    "notificationChannels": {
+      "email": "Powiadomienia e-mail",
+      "push": "Powiadomienia push",
+      "deals": "Aktualizacje {pluralLower}",
+      "tasks": "Przypomnienia o zadaniach",
+      "contacts": "Zmiany w {pluralLower}"
+    },
+    "platformSection": "Platforma",
+    "platformDescription": "VelocityCRM działa jako aplikacja webowa, desktopowa (Windows, macOS, Linux) i mobilna (Android, iOS) z jednej bazy kodu Vue + Tauri.",
+    "platformWeb": "Przeglądarka internetowa",
+    "platformDesktop": "Aplikacja desktopowa",
+    "platformMobile": "Aplikacja mobilna",
+    "currentPlatform": "Aktualne środowisko uruchomieniowe"
+  },
+  "profile": {
+    "title": "Mój profil",
+    "subtitle": "Zarządzaj swoimi danymi i preferencjami konta",
+    "fields": {
+      "name": "Imię i nazwisko",
+      "email": "Adres e-mail",
+      "role": "Stanowisko",
+      "department": "Dział",
+      "phone": "Telefon",
+      "timezone": "Strefa czasowa"
+    }
+  },
+  "account": {
+    "profile": "Profil",
+    "settings": "Ustawienia",
+    "help": "Pomoc i wsparcie",
+    "signOut": "Wyloguj się"
+  },
+  "industry": {
+    "label": "Branża",
+    "switchTo": "Przełącz na profil {name}"
+  },
+  "a11y": {
+    "closeModal": "Zamknij okno dialogowe",
+    "removeItem": "Usuń {name}",
+    "statusOf": "Status: {status}"
+  },
+  "notFound": {
+    "title": "Nie znaleziono strony",
+    "message": "Sprawdź adres lub wróć do pulpitu.",
+    "backHome": "Wróć do pulpitu"
+  }
+}
